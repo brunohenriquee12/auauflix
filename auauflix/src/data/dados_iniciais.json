@@ -1,0 +1,126 @@
+{
+  "categorias": [
+    {
+      "titulo": "AuAmigos",
+      "link": "https://www.youtube.com/watch?v=ikytRDDwJMQ",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Os dogs da terra do pequi!!!",
+        "url": "https://www.youtube.com/watch?v=DkKT9ASICO4&feature=youtu.be"
+      },
+      "videos": [
+        {
+          "titulo": "Jimi, o Simba do Cerrado",
+          "url": "https://www.youtube.com/watch?v=ikytRDDwJMQ"
+        },
+        {
+          "titulo": "Lousie princesa",
+          "url": "https://www.youtube.com/watch?v=3xZvzpWQgjw"
+        },
+        {
+          "titulo": "Jimi mata matando Bruno no LoL",
+          "url": "https://www.youtube.com/watch?v=lSaMIkcTIy0"
+        },
+        {
+          "titulo": "Lousie desesperada achando que foi abandonada",
+          "url": "https://www.youtube.com/watch?v=nMeceUlvsZE"
+        },
+        {
+          "titulo": "Golden estiloso pegando vento",
+          "url": "https://www.youtube.com/watch?v=rU4wRLWUhNc"
+        },
+        {
+          "titulo": "Jimi e lousie nadando na terra do Pequi",
+          "url": "https://www.youtube.com/watch?v=I2E1jsHtrQM"
+        },
+        {
+          "titulo": "Golden pequizeiro tomando banho em cachoeira",
+          "url": "https://www.youtube.com/watch?v=rfq2r4JhoGE"
+        }        
+      ]
+    },
+    {
+      "titulo": "Pérola Regina",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "A shitzu mais linda do cerrado!",
+        "url": "https://www.youtube.com/watch?v=OLPsyFiG1B4"
+      },
+      "videos": [
+        {
+          "titulo": "Pérola Regina brincando com o perigo",
+          "url": "https://www.youtube.com/watch?v=OLPsyFiG1B4"
+        },
+        {
+          "titulo": "Shitzu pérola de blusa e laço 😍",
+          "url": "https://www.youtube.com/watch?v=w4onJrAgYRo"
+        },
+        {
+          "titulo": "Pérola Regina procurando encrenca",
+          "url": "https://www.youtube.com/watch?v=HeiAd1gD1zU"
+        },
+        {
+          "titulo": "Pérola adora chamito",
+          "url": "https://www.youtube.com/watch?v=IfKyL17zS0k"
+        }, 
+        {
+          "titulo": "Pérola e o melão maior que a própria boca",
+          "url": "https://www.youtube.com/watch?v=ozfBm5-_lwM"
+        }
+      ]
+    },
+    {
+      "titulo": "Pets pequinenses dos meus amigos",
+      "cor": "green",
+      "link_extra": {
+        "text": "Como todo mundo, eu também tenho amigos que possuem pets, portanto, aqui está minha homenagem a eles <3",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Pepita morte aos pintos",
+          "url": "https://www.youtube.com/watch?v=rCq-hD1orVs"
+        },
+        {
+          "titulo": "Dois gatinhos",
+          "url": "https://www.youtube.com/watch?v=GZ05x8m3X9o"
+        },
+        {
+          "titulo": "O Pétinho",
+          "url": "https://www.youtube.com/watch?v=kixH9aY5Zng"
+        }
+        
+      ]
+    },
+    {
+      "titulo": "",
+      "cor": "orange",
+      "videos": [
+        
+      ]
+    },
+    {
+      "titulo": "",
+      "cor": "red",
+      "link_extra": {
+        "text": "",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        
+      ]
+    },
+    {
+      "titulo": "",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        
+        
+      ]
+    }
+  ]
+}
