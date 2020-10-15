@@ -3,7 +3,7 @@
   }
   @media (max-width: 800px) {
     .Logo {
-      max-width: 105px;
+      max-width: 120px;
     }
   }
   
@@ -24,7 +24,7 @@
     padding-right: 5%;
   
     background: var(--black);
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 2px solid rgba(204, 37, 37, 0.884);
   }
   body {
     --bodyPaddingTop: 94px;
@@ -67,7 +67,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: var(--primary);
+      background: rgba(204, 37, 37, 0.884);
       border-radius: 0;
       border: 0;
       text-align: center;

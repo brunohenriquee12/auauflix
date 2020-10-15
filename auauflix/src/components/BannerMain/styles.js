@@ -107,14 +107,14 @@ export const WatchButton = styled.button`
   padding: 16px 24px;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 25px;
   outline: none;
-  border-radius: 5px;
+  border-radius: 10px;
   text-decoration: none;
   display: inline-block;
   border: 1px solid transparent;
   color: var(--black);
-  background: var(--white);
+  background: var(--);
   border-color: var(--black);
   transition: opacity .3s;
   display: none;

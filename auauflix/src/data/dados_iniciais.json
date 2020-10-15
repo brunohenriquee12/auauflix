@@ -3,7 +3,7 @@
     {
       "titulo": "AuAmigos",
       "link": "https://www.youtube.com/watch?v=ikytRDDwJMQ",
-      "cor": "#6BD1FF",
+      "cor": "orange",
       "link_extra": {
         "text": "Os dogs da terra do pequi!!!",
         "url": "https://www.youtube.com/watch?v=DkKT9ASICO4&feature=youtu.be"
@@ -94,7 +94,7 @@
     },
     {
       "titulo": "",
-      "cor": "orange",
+      "cor": "#6BD1FF",
       "videos": [
         
       ]
