@@ -4,14 +4,15 @@ import styled, { css } from 'styled-components';
 
 const FormFieldWrapper = styled.div`
   position: relative;
+
   textarea {
     min-height: 150px;
   }
+
   input[type="color"] {
     padding-left: 56px;
   }
 `;
-
 
 const Label = styled.label``;
 
@@ -56,9 +57,11 @@ const Input = styled.input`
   &:focus {
     border-bottom-color: var(--primary);
   }
+
   &:focus:not([type='color']) + ${Label.Text} {
     transform: scale(.6) translateY(-10px);
   }
+
   ${({ value }) => {
     const hasValue = value.length > 0;
     return hasValue && css`
@@ -73,42 +76,39 @@ const Input = styled.input`
 function FormField({
   label, type, name, value, onChange,
 }) {
-    const fieldId = `id_${name}`;
-    const isTextarea = type === 'textarea';
-    const tag = isTextarea ? 'textarea' : 'input';
+  const isTypeTextArea = type === 'textarea';
+  const tag = isTypeTextArea ? 'textarea' : 'input';
 
   return (
-    <div>
-      <label
-        htmlFor={fieldId}
-      >
-        {label}
-        : 
+    <FormFieldWrapper>
+      <Label>
         <Input
           as={tag}
-          id={fieldId}
           type={type}
           value={value}
           name={name}
           onChange={onChange}
         />
-      </label>;
-    </div>
+        <Label.Text>
+          {label}
+          :
+        </Label.Text>
+      </Label>
+    </FormFieldWrapper>
   );
 }
 
 FormField.defaultProps = {
-    type: 'text',
-    value: '',
-    onChange: () => {},
-}
+  type: 'text',
+  value: '',
+};
 
 FormField.propTypes = {
-    label: PropTypes.string.isRequired,
-    type: PropTypes.string,
-    name: PropTypes.string.isRequired,
-    value: PropTypes.string.isRequired,
-    onChange: PropTypes.func,
-}
+  label: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  type: PropTypes.string,
+  value: PropTypes.string,
+  onChange: PropTypes.func.isRequired,
+};
 
 export default FormField;
