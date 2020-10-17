@@ -8,6 +8,7 @@ import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/categoria';
 
 const Pagina404 = () => (<div>Página 404</div>)
+//teste commit
 
 ReactDOM.render(
   <BrowserRouter>
